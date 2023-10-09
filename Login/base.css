@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-image: linear-gradient(to right bottom,rgb(98, 0, 255), rgb(132, 0, 255),rgb(234, 0, 255),orange);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    border-radius: 15px;
+    height: 900px;
+    width: 550px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px rgb(92, 92, 92);
+}
+
+.card-text-container {
+    width: 100%;
+    height: 50px;
+    padding-top: 145px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.card-in-container1 {
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.text {
+    border: 2px solid rgb(128, 127, 127);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    background-color: rgba(185, 185, 185, 0.479);
+}
+
+.card-in-container2 {
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+.password {
+    border: 2px solid rgb(128, 127, 127);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    background-color: rgba(185, 185, 185, 0.479);
+}
+
+.card-forget-password {
+    position: relative;
+    left: 350px;
+    text-align: center;
+    width: 150px;
+    padding-bottom: 30px;
+}
+
+.card-password {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.text-password {
+    text-decoration: none;
+    color: rgb(2, 160, 223);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@media screen and (max-width: 1394px) {
+    .card-forget-password {
+       left: 323px;
+    }
+}
+
+.text-password:hover {
+    color: rgb(0, 135, 189);
+}
+
+.card-container-login {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.submit {
+    border: 0px;
+    background-color: rgb(2, 160, 223);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+}
+
+.submit:hover {
+    background-color: rgb(0, 135, 189);
+}
+
+.container-or {
+    width: 100%;
+    height: 50px;
+    
+    display: flex;
+}
+
+.container-or1 {
+    margin-left: 25px;
+    width: 200px;
+    height: 50px;
+   
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.or1 {
+    margin-left: 15px;
+    width: 180px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(160, 160, 160);
+}
+
+.container-or2 {
+    width: 90px;
+    height: 50px;
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+.text-or2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(160, 160, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-or3 {
+    margin-right: 25px;
+    width: 200px;
+    height: 50px;
+    
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.or3 {
+    margin-right: 15px;
+    width: 180px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(160, 160, 160);
+}
+
+.facebook-cotainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 20px;
+    color:rgb(2, 160, 223) ;
+}
+
+.facebook-text {
+    color: rgb(2, 160, 223);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
+
+.facebook-text:hover {
+    color: rgb(0, 135, 189);
+}
+
+.footer-line {
+    width: 100%;
+    height: 3px;
+    margin-top: 105px;
+    background-color: rgb(160, 160, 160);
+}
+
+.footer-cotainer {
+    width: 100%;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: rgb(160, 160, 160);
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    padding-right: 5px;
+}
+
+.footer-sign {
+    color: rgb(2, 160, 223);
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1394px) {
+    .footer-cotainer {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-line {
+        width: 100%;
+        height: 3px;
+        margin-top: 80px;
+        background-color: rgb(160, 160, 160);
+    }
+    
+}
